@@ -1,0 +1,61 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  <servlet-name> SignupServlet</servlet-name>
+  <servlet-class>sample.SignupServlet</servlet-class>
+  
+
+  </servlet>
+  <servlet>
+  <servlet-name>SavingsAccountServlet</servlet-name>
+  <servlet-class>sample.SavingsAccountServlet</servlet-class>
+  </servlet>
+    
+    <servlet>
+    <servlet-name> CurrentAccount</servlet-name>
+    <servlet-class>sample.CurrentAccount</servlet-class>
+    </servlet>
+    
+    <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>sample.LoginServlet</servlet-class>
+    </servlet>
+    
+    <servlet>
+    <servlet-name>SendMoneyServlet</servlet-name>
+    <servlet-class>sample.SendMoneyServlet</servlet-class>
+    </servlet>
+    
+    
+    
+  <servlet-mapping>
+  <servlet-name> SignupServlet</servlet-name>
+  <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>SavingsAccountServlet</servlet-name>
+  <url-pattern>/saveaccount</url-pattern>
+  </servlet-mapping>
+   
+  <servlet-mapping>
+  <servlet-name> CurrentAccount</servlet-name>
+  <url-pattern>/caccount</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  <servlet-name>SendMoneyServlet</servlet-name>
+  <url-pattern>/sendMoney</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

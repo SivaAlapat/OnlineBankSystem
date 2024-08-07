@@ -1,0 +1,229 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffd700;
+}
+
+.navbar-light .navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-light .dropdown-menu {
+  background-color: #f8f9fa;
+}
+
+.navbar-light .dropdown-menu .dropdown-item {
+  color: #000;
+}
+
+.navbar-light .dropdown-menu .dropdown-item:hover {
+  background-color: #e9ecef;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(1);
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+.navbar {
+  background: linear-gradient(
+    90deg,
+    hsl(0, 0%, 95%),
+    #5ffaff,
+    #ff5fb7,
+    #ffb75f,
+    #5fffef,
+    #7bb6fe
+  ) !important;
+  color: white;
+}
+.bg-gradient {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #ffffff;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-footer .btn {
+  margin-left: 0.5rem;
+}
+.modal-title {
+  width: 100%;
+  text-align: center;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-body {
+  padding: 2rem;
+}
+
+.modal-footer {
+  border-top: none;
+}
+
+.btn-link {
+  color: #ffffff;
+}
+
+.btn-link:hover {
+  color: #00ddff;
+}
+.container {
+  padding: 0 1.5rem;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 0.875rem;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  padding: 3rem 1.5rem;
+}
+
+.gradient-bg h2 {
+  color: #ffffff;
+}
+
+.gradient-bg p {
+  color: #ffffff;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.footer h5 {
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+  color: #ffffff;
+}
+
+.footer ul li a:hover {
+  color: #ffd700;
+}
+
+.footer .text-center p {
+  margin: 0;
+}
+.btn-primary {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-style: none;
+}
+.img-fluid {
+  border-radius: 15px;
+}
+.orange-bg {
+    background-color: orange;
+}
+
+/* Add this to your styles.css file */
+.background-image {
+    background-image: url('srcs/signup.jpeg');
+    background-size: cover; /* Cover the entire page */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-attachment: fixed; /* Fix the background image */
+    background-position: center; /* Center the background image */
+}
+
+/* Optional: Adding some padding to ensure content is readable */
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with opacity */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+  }
+}
